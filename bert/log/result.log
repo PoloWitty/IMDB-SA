@@ -1,0 +1,52 @@
+connectionpool.py - Starting new HTTPS connection (1): s3.amazonaws.com:443
+connectionpool.py - https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/imdb/imdb.py HTTP/1.1" 200 0
+connectionpool.py - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+connectionpool.py - https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/1.16.1/datasets/imdb/imdb.py HTTP/1.1" 200 0
+connectionpool.py - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+connectionpool.py - https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/1.16.1/datasets/imdb/dataset_infos.json HTTP/1.1" 200 0
+builder.py - Reusing dataset imdb (/home/pengyangzhe/.cache/huggingface/datasets/imdb/plain_text/1.0.0/2fdd8b9bcadd6e7055e742a706876ba43f19faee861df134affd7a3f60fc38a1)
+arrow_dataset.py - Loading cached processed dataset at /home/pengyangzhe/.cache/huggingface/datasets/imdb/plain_text/1.0.0/2fdd8b9bcadd6e7055e742a706876ba43f19faee861df134affd7a3f60fc38a1/cache-5cb4a2252e0a6484.arrow
+arrow_dataset.py - Loading cached processed dataset at /home/pengyangzhe/.cache/huggingface/datasets/imdb/plain_text/1.0.0/2fdd8b9bcadd6e7055e742a706876ba43f19faee861df134affd7a3f60fc38a1/cache-8de34a2d294885d0.arrow
+arrow_dataset.py - Loading cached processed dataset at /home/pengyangzhe/.cache/huggingface/datasets/imdb/plain_text/1.0.0/2fdd8b9bcadd6e7055e742a706876ba43f19faee861df134affd7a3f60fc38a1/cache-010ae0f0ea1a752c.arrow
+connectionpool.py - Starting new HTTPS connection (1): s3.amazonaws.com:443
+connectionpool.py - https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/accuracy/accuracy.py HTTP/1.1" 200 0
+connectionpool.py - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+load.py - Using the latest cached version of the module from /home/pengyangzhe/.cache/huggingface/modules/datasets_modules/metrics/accuracy/3e9ee15abf476145152fe4e9a9c1463ff95d3d65cdc555be9cfe061bdaeb1a14 (last modified on Thu Dec 23 21:39:44 2021) since it couldn't be found locally at accuracy, or remotely on the Hugging Face Hub.
+connectionpool.py - Starting new HTTPS connection (1): s3.amazonaws.com:443
+connectionpool.py - https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/precision/precision.py HTTP/1.1" 200 0
+connectionpool.py - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+load.py - Using the latest cached version of the module from /home/pengyangzhe/.cache/huggingface/modules/datasets_modules/metrics/precision/583558e82f9255784cca3b6bdcdee5371c0d4c921c68bef7df1875e23ba42505 (last modified on Sat Dec 25 19:14:21 2021) since it couldn't be found locally at precision, or remotely on the Hugging Face Hub.
+connectionpool.py - Starting new HTTPS connection (1): s3.amazonaws.com:443
+connectionpool.py - https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/recall/recall.py HTTP/1.1" 200 0
+connectionpool.py - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+load.py - Using the latest cached version of the module from /home/pengyangzhe/.cache/huggingface/modules/datasets_modules/metrics/recall/8eeb205b8c3dc4baae0747a52c745b327c8b6c3cd93878649bd42194bb03b7a5 (last modified on Sat Dec 25 19:22:49 2021) since it couldn't be found locally at recall, or remotely on the Hugging Face Hub.
+
+
+
+main.py - At first: avg test loss 0.7238231301307678
+main.py - test accuracy:{'accuracy': 0.49852}, precision: {'precision': 0.42386831275720166}, recall: {'recall': 0.00824}
+main.py - in epoch0  batch 1000 loss: 0.3256982327774167
+main.py - in epoch0  batch 2000 loss: 0.2500583545509726
+main.py - in epoch0  batch 3000 loss: 0.23710280377464368
+main.py - avg train loss: 0.23710280377464368, avg test loss 0.22076039016246796
+main.py - test accuracy:{'accuracy': 0.9108}, precision: {'precision': 0.9651268115942029}, recall: {'recall': 0.8524}
+main.py - in epoch1  batch 1000 loss: 0.13371515175700188
+main.py - in epoch1  batch 2000 loss: 0.12515214824827853
+main.py - in epoch1  batch 3000 loss: 0.13594253736617976
+main.py - avg train loss: 0.13594253736617976, avg test loss 0.1949518918991089
+main.py - test accuracy:{'accuracy': 0.92944}, precision: {'precision': 0.944886457815349}, recall: {'recall': 0.91208}
+main.py - in epoch2  batch 1000 loss: 0.057650388369278514
+main.py - in epoch2  batch 2000 loss: 0.058671433064329905
+main.py - in epoch2  batch 3000 loss: 0.051939611213922036
+main.py - avg train loss: 0.051939611213922036, avg test loss 0.2359331250190735
+main.py - test accuracy:{'accuracy': 0.92544}, precision: {'precision': 0.9488521269412559}, recall: {'recall': 0.89936}
+main.py - in epoch3  batch 1000 loss: 0.02295873960584868
+main.py - in epoch3  batch 2000 loss: 0.021920315616531297
+main.py - in epoch3  batch 3000 loss: 0.02157338607721613
+main.py - avg train loss: 0.02157338607721613, avg test loss 0.27496859431266785
+main.py - test accuracy:{'accuracy': 0.93336}, precision: {'precision': 0.9314272061165977}, recall: {'recall': 0.9356}
+main.py - in epoch4  batch 1000 loss: 0.012026530329778325
+main.py - in epoch4  batch 2000 loss: 0.009968987976491917
+main.py - in epoch4  batch 3000 loss: 0.009470976553566289
+main.py - avg train loss: 0.009470976553566289, avg test loss 0.3290632665157318
+main.py - test accuracy:{'accuracy': 0.93488}, precision: {'precision': 0.9338387869114126}, recall: {'recall': 0.93608}

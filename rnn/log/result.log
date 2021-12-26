@@ -1,0 +1,18 @@
+connectionpool.py - Starting new HTTPS connection (1): s3.amazonaws.com:443
+connectionpool.py - https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/imdb/imdb.py HTTP/1.1" 200 0
+connectionpool.py - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+load.py - Using the latest cached version of the module from /home/pengyangzhe/.cache/huggingface/modules/datasets_modules/datasets/imdb/2fdd8b9bcadd6e7055e742a706876ba43f19faee861df134affd7a3f60fc38a1 (last modified on Wed Dec 22 14:22:21 2021) since it couldn't be found locally at imdb., or remotely on the Hugging Face Hub.
+builder.py - Reusing dataset imdb (/home/pengyangzhe/.cache/huggingface/datasets/imdb/plain_text/1.0.0/2fdd8b9bcadd6e7055e742a706876ba43f19faee861df134affd7a3f60fc38a1)
+arrow_dataset.py - Loading cached processed dataset at /home/pengyangzhe/.cache/huggingface/datasets/imdb/plain_text/1.0.0/2fdd8b9bcadd6e7055e742a706876ba43f19faee861df134affd7a3f60fc38a1/cache-3821081dc93f223a.arrow
+arrow_dataset.py - Loading cached processed dataset at /home/pengyangzhe/.cache/huggingface/datasets/imdb/plain_text/1.0.0/2fdd8b9bcadd6e7055e742a706876ba43f19faee861df134affd7a3f60fc38a1/cache-71b7153c5144cc7a.arrow
+arrow_dataset.py - Loading cached processed dataset at /home/pengyangzhe/.cache/huggingface/datasets/imdb/plain_text/1.0.0/2fdd8b9bcadd6e7055e742a706876ba43f19faee861df134affd7a3f60fc38a1/cache-f91318fd67f66c50.arrow
+connectionpool.py - Starting new HTTPS connection (1): s3.amazonaws.com:443
+connectionpool.py - https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/precision/precision.py HTTP/1.1" 200 0
+connectionpool.py - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+load.py - Using the latest cached version of the module from /home/pengyangzhe/.cache/huggingface/modules/datasets_modules/metrics/precision/583558e82f9255784cca3b6bdcdee5371c0d4c921c68bef7df1875e23ba42505 (last modified on Sat Dec 25 19:14:21 2021) since it couldn't be found locally at precision, or remotely on the Hugging Face Hub.
+connectionpool.py - Starting new HTTPS connection (1): s3.amazonaws.com:443
+connectionpool.py - https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/metrics/recall/recall.py HTTP/1.1" 200 0
+connectionpool.py - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+connectionpool.py - https://raw.githubusercontent.com:443 "HEAD /huggingface/datasets/1.16.1/metrics/recall/recall.py HTTP/1.1" 200 0
+connectionpool.py - Starting new HTTPS connection (1): raw.githubusercontent.com:443
+connectionpool.py - https://raw.githubusercontent.com:443 "GET /huggingface/datasets/1.16.1/metrics/recall/recall.py HTTP/1.1" 200 2100

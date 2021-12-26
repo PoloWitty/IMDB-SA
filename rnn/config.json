@@ -1,0 +1,14 @@
+{
+    "vocab_size":25000,
+    "tokenizer_path":"test/imdb/rnn/tokenizer.json",
+    "metric_path":"test/imdb/rnn/accuracy.py",
+    "batch_size":32,
+    "emb_size":512,
+    "hid_size":256,
+    "dropout":0.3,
+    "layer_norm_eps":1e-4,
+    "epoch_num":30,
+    "model_path":"test/imdb/rnn/checkpoint",
+    "log_dir":"test/imdb/rnn/log",
+    "max_seq_len":512
+}
